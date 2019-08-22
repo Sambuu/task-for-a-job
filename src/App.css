@@ -1,0 +1,135 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smoth;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+.section-header{
+    padding-bottom: 30px;
+}
+.navbar-brand{
+    color:fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-area{
+    background: #262626;
+}
+.navbar-nav .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-item{
+    color: #fff;
+    padding: 0 10px; 
+    text-transform: uppercase;
+}
+.slider-area{
+    background-image: url("https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+.slider-area:before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(360deg, #000, transparent)
+}
+.slider-text{
+    font-size: 45px; 
+    font-weight: bold;
+}
+.slider-text a{
+    padding: 2px 3px; 
+    background-color: #2980b9;
+    color: #fff;
+    display: inline-block; 
+    margin-top: 25px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold; 
+}
+.slider-text{
+    text-align: center;
+    padding-top: 10%;
+}
+.section1{
+    width: 100%;
+    height: 100%;
+
+}
+.section2 h2,h3,p{
+    text-align: center;
+}
+.section2{
+    background-image: url("https://wallpaperplay.com/walls/full/c/4/8/137569.jpg");
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+section2:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg,#000, transparent);
+    z-index: -1;
+}
+.footer-area{
+    background: #262626;
+    color: rgb(37, 25, 25);
+    padding:30px 0;
+    text-align: center;
+}
+.footer-area ul{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.footer-area ul li{
+    list-style: none;
+}
+.footer-area ul li a{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+}
+.footer-area ul li a .fa{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+}
+.footer-area ul li a:hover .fa{
+    transform: rotateY(360deg);
+} 
+
+
